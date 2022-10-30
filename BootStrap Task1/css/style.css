@@ -1,0 +1,267 @@
+:root
+{
+    --bs-primary: #1abc9c;
+    --bs-secondary: #2c3e50;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --font-size:16px;
+}
+
+.navbar
+{
+    background-color: var(--bs-dark)!important;
+    font-size:calc(var(--font-size)+30px);
+    height:100px;
+
+}
+
+.navbar .navbar-brand
+{
+    color: var(--bs-secondary) ;
+    padding-left: 100px;
+
+}
+
+.navbar .navbar-nav .nav-item .nav-link
+{
+    color: var(--bs-secondary) ;
+    font-weight: bold;
+    font-size:calc(var(--font-size)+10px);
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover
+{
+    color: var(--bs-primary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider
+{
+  background-color: var(--bs-primary);
+  width: 100%;
+  height: 90vh;
+
+}
+
+.slider img
+{
+    height: 40vh;
+    padding:0px;
+}
+
+.slider h1
+{
+    color: var(--bs-light);
+    font-size:calc(var(--font-size)+20px);
+}
+
+.slider P
+{
+    color: var(--bs-light);
+    font-size:calc(var(--font-size)+15px);
+}
+
+.slider .container h1
+{
+    font-size: 5rem;
+}
+
+.slider .divider-custom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.slider .divider-custom-icon
+{
+    display: inline-block;
+    width: 50px;
+    color: white;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.portfolio .container img
+{
+    width: 350px;
+    height: 300px;
+}
+
+.portfolio .container img:hover
+{
+    color: white;
+}
+
+.portfolio h1
+{
+    font-size: 50px;
+}
+
+.portfolio .divider-custom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.portfolio .divider-custom-icon
+{
+    display: inline-block;
+    width: 50px;
+    color: black;    
+}
+
+
+
+
+
+
+.about
+{
+    background-color: var(--bs-primary);
+}
+
+.about .btn 
+{
+    width:200px;
+    height:50px;
+    border: 1px solid white;
+}
+
+.about .divider-custom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about .divider-custom-icon
+{
+    display: inline-block;
+    width: 50px;
+    color: white;    
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact
+{
+    background-color: white;
+}
+
+.contact form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact .form-group
+{
+    height: 50px;
+    width:400px;
+    
+}
+
+.contact .divider-custom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact .divider-custom-icon
+{
+    display: inline-block;
+    width: 50px;
+    color: black;    
+}
+
+.contact .container form .message
+{
+    height: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Font awsome*/  
+.fa
+{
+	font-size: 30px;
+    margin: 20px;
+    color:var(--bs-primary);
+}
+
+.fa-copyright
+{
+    font-size: 20px;
+    margin: 0px;
+    color:var(--bs-black);
+}
+
+.fa:hover
+{
+    color:var(--bs-light);
+
+}
+
+
+.footer
+{
+    width:100%;
+
+}
+
+.footer .container
+{
+    width:70%;
+}
